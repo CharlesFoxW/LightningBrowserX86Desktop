@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 20
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "acr.browser.lightning"
+        minSdkVersion 14
+        targetSdkVersion 20
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':libnetcipher')
+    compile project(':androidHorizontalListView')
+}

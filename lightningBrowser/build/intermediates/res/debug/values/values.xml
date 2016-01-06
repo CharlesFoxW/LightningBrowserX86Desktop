@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="download_folder">
+        <item>@string/folder_default</item>
+        <item>@string/folder_custom</item>
+    </string-array>
+    <string-array name="homepage">
+        <item>@string/action_homepage</item>
+        <item>@string/action_blank</item>
+        <item>@string/action_bookmarks</item>
+        <item>@string/action_webpage</item>
+    </string-array>
+    <string-array name="text_size">
+        <item>@string/size_largest</item>
+        <item>@string/size_large</item>
+        <item>@string/size_normal</item>
+        <item>@string/size_small</item>
+        <item>@string/size_smallest</item>
+    </string-array>
+    <string-array name="user_agent">
+        <item>@string/agent_default</item>
+        <item>@string/agent_desktop</item>
+        <item>@string/agent_mobile</item>
+        <item>@string/agent_custom</item>
+    </string-array>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/attr.xml -->
+    <eat-comment/>
+    <attr format="integer" name="arrowBackDrawable"/>
+    <attr format="integer" name="arrowForwardDrawable"/>
+    <attr format="reference|color" name="autoCompleteTitleColor"/>
+    <attr format="reference|color" name="autoCompleteUrlColor"/>
+    <attr format="reference|color" name="numberColor"/>
+    <attr format="reference|color" name="progressColor"/>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#ff000000</color>
+    <color name="dark_text">#3f3f3f</color>
+    <color name="drawer_background">#ffffff</color>
+    <color name="gray_dark">#222222</color>
+    <color name="gray_extra_dark">#1b1b1b</color>
+    <color name="gray_light">#dddddd</color>
+    <color name="gray_list_bg">#0d000000</color>
+    <color name="gray_medium">#cdcdcd</color>
+    <color name="light">#ffa0a0a0</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="HorizontalListView"><attr format="dimension" name="dividerWidth"/><attr name="android:divider"/><attr name="android:requiresFadingEdge"/><attr name="android:fadingEdgeLength"/></declare-styleable>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_width">260dp</dimen>
+    <dimen name="search_bar_height">48dp</dimen>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_add_bookmark">Add Bookmark</string>
+    <string name="action_allow">Allow</string>
+    <string name="action_auto">Auto</string>
+    <string name="action_back">Back</string>
+    <string name="action_blank">Blank Page</string>
+    <string name="action_bookmarks">Bookmarks</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_copy">Copy Link</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_dont_allow">Don\'t Allow</string>
+    <string name="action_download">Download</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_find">Find in Page</string>
+    <string name="action_follow_me">Contact Me</string>
+    <string name="action_forward">Forward</string>
+    <string name="action_history">History</string>
+    <string name="action_homepage">Default</string>
+    <string name="action_incognito">New Incognito Tab</string>
+    <string name="action_manual">Manual</string>
+    <string name="action_new_tab">New Tab</string>
+    <string name="action_no">No</string>
+    <string name="action_ok">OK</string>
+    <string name="action_open">Open</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_show_download">Downloads</string>
+    <string name="action_webpage">Webpage</string>
+    <string name="action_websearch">Web search</string>
+    <string name="action_yes">Yes</string>
+    <string name="agent">User Agent</string>
+    <string name="agent_custom">Custom</string>
+    <string name="agent_default">Default</string>
+    <string name="agent_desktop">Desktop</string>
+    <string name="agent_mobile">Mobile</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="always">Always</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="android_open_source_project">Android Open Source Project</string>
+    <string name="apache">Apache License 2.0</string>
+    <string name="app_name">Lightning</string>
+    <string name="block">Block Images</string>
+    <string name="block_ads">Block Ads</string>
+    <string name="bookmark_export_path">Bookmarks exported to</string>
+    <string name="bookmark_settings">Bookmark Settings</string>
+    <string name="cache">Clear cache on exit</string>
+    <string name="cannot_download">Can only download \"http\" or \"https\" URLs.</string>
+    <string name="clear_cache">Clear cache</string>
+    <string name="clear_cookies">Clear browser cookies</string>
+    <string name="clear_cookies_exit">Clear cookies on exit</string>
+    <string name="clear_history_exit">Clear history on exit</string>
+    <string name="cookies">Enable Cookies</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="could_not_find_self_signed_certificate_in_chain">Could not find self-signed certificate in chain</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="custom">View as custom user agent</string>
+    <string name="custom_url">Custom URL</string>
+    <string name="deleted_tab">Reopened old tab</string>
+    <string name="desk">View as Desktop</string>
+    <string name="dialog_adobe_dead">We\'re sorry, Google made some changes, and Adobe Flash no longer works on Android 4.4+</string>
+    <string name="dialog_adobe_not_installed">Adobe Flash Player was not detected.\nPlease install Flash Player.</string>
+    <string name="dialog_adobe_unsupported">Adobe Flash does not support Andoid 4.2 and above, and will crash the browser. Please do not report any crashes that occur if you enable Flash.</string>
+    <string name="dialog_bookmark">What would you like to do with this bookmark?</string>
+    <string name="dialog_cookies">Would you like to clear all browser cookies?</string>
+    <string name="dialog_download">Do you want to download this file?</string>
+    <string name="dialog_history">Would you like to clear all browser history?</string>
+    <string name="dialog_image">What would you like to do with this image?</string>
+    <string name="dialog_import_error">No browser was detected to import bookmarks from.</string>
+    <string name="dialog_link">What would you like to do with this link?</string>
+    <string name="dialog_reflow_warning">We\'re sorry, Google made some changes, and Text Reflow no longer works on Android 4.4+</string>
+    <string name="dialog_title_share">Share this page</string>
+    <string name="download">Download Location</string>
+    <string name="download_no_sdcard_dlg_msg">USB storage is required to download the file.</string>
+    <string name="download_no_sdcard_dlg_title">No SD card</string>
+    <string name="download_pending">Starting download\u2026</string>
+    <string name="download_sdcard_busy_dlg_msg">The storage is busy. To allow downloads, touch Turn Off USB Storage in the notification.</string>
+    <string name="download_sdcard_busy_dlg_title">USB storage unavailable</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="email">Email me</string>
+    <string name="enable_orbot">Enable Orbot</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="error_could_not_find_cert_issuer_certificate_in_chain">"Could not find cert issuer certificate in chain: "</string>
+    <string name="error_could_not_find_root_ca_issuer_certificate_in_chain">Could not find Root CA issuer certificate in chain</string>
+    <string name="error_does_not_contain_">" does not contain "</string>
+    <string name="error_domain_check_failed">Domain check failed</string>
+    <string name="error_problem_access_local_root_ca_store">problem access local ROOT CA store</string>
+    <string name="error_signature_chain_verification_failed">"signature chain verification failed of "</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="export_bookmarks">Export bookmarks to backup</string>
+    <string name="flash">Enable Adobe Flash</string>
+    <string name="folder_custom">Custom</string>
+    <string name="folder_default">Default</string>
+    <string name="freeware">Freeware</string>
+    <string name="fullScreenOption">Hide status bar while browsing</string>
+    <string name="fullscreen">Full-screen Mode</string>
+    <string name="github">github.com/anthonycr/Lightning-Browser</string>
+    <string name="google">Google</string>
+    <string name="google_suggestions">Search Suggestions</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_url">URL</string>
+    <string name="hint_username">Username</string>
+    <string name="history">Clear history</string>
+    <string name="home">Homepage</string>
+    <string name="hphosts_ad_server_list">hpHosts Ad Server List</string>
+    <string name="import_backup">Import bookmarks from backup</string>
+    <string name="import_bookmark_error">Could not import bookmarks from file</string>
+    <string name="importbookmarks">Import bookmarks from Browser</string>
+    <string name="incognito_cookies">Enable Cookies in Incognito Mode</string>
+    <string name="install_orbot">Please install Orbot in order to proxy with Tor.</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="install_orbot_">Install Orbot?</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="java">Enable JavaScript</string>
+    <string name="library_netcipher">NetCipher</string>
+    <string name="license">License</string>
+    <string name="license_gnu">GNU Lesser General Public License</string>
+    <string name="licenses">Open Source Licenses</string>
+    <string name="location">Location Access</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="market_orbot">market://search?q=pname:org.torproject.android</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="max_tabs">Max Tabs Reached</string>
+    <string name="message_adblock">AdBlock is currently only available in the browser\'s paid version, Lightning Browser+. It is available to download on Google Play.</string>
+    <string name="message_blocked_local">Local file has been blocked from loading</string>
+    <string name="message_cache_cleared">Cache Cleared</string>
+    <string name="message_clear_history">History Cleared</string>
+    <string name="message_cookies_cleared">Cookies Cleared</string>
+    <string name="message_form_resubmission">Would you like to resend the data?</string>
+    <string name="message_import">Bookmarks Were Imported</string>
+    <string name="message_link_copied">Link copied to clipboard</string>
+    <string name="message_location">\nWould like to use your location</string>
+    <string name="message_text_copied">Text copied to clipboard</string>
+    <string name="message_untrusted_certificate">The certificate of the site is not trusted. Proceed anyway?</string>
+    <string name="mobile">View as Mobile</string>
+    <string name="mpl_license">Mozilla Public License v. 2.0</string>
+    <string name="name_grayscale">Grayscale</string>
+    <string name="name_inverted">Inverted</string>
+    <string name="name_inverted_grayscale">Inverted Grayscale</string>
+    <string name="name_normal">Normal</string>
+    <string name="no">No</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="orbot_doesn_t_appear_to_be_running_would_you_like_to_start_it_up_and_connect_to_tor_">Orbot doesn\'t appear to be running. Would you like to start it up and connect to Tor?</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="overViewMode">Load pages in overview mode</string>
+    <string name="password">Save your passwords</string>
+    <string name="powered_by_google">Powered by Google</string>
+    <string name="recommended">Recommended</string>
+    <string name="reflow">Enable text reflow</string>
+    <string name="rendering_mode">Rendering Mode</string>
+    <string name="restore">Restore lost tabs on start</string>
+    <string name="saveTab">Restore your tabs if they\'re lost</string>
+    <string name="search">Search Engine</string>
+    <string name="search_hint">Search</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="secure_connection_active_">"Secure Connection Active: "</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="settings">Settings</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_explain">Details about version, author and license.</string>
+    <string name="settings_advanced">Advanced Settings</string>
+    <string name="settings_display">Display Settings</string>
+    <string name="settings_general">General Settings</string>
+    <string name="settings_privacy">Privacy Settings</string>
+    <string name="settings_title">Settings</string>
+    <string name="settingshelp">Settings only apply to new tabs</string>
+    <string name="size">Text size</string>
+    <string name="size_large">Large</string>
+    <string name="size_largest">Largest</string>
+    <string name="size_normal">Normal</string>
+    <string name="size_small">Small</string>
+    <string name="size_smallest">Smallest</string>
+    <string name="source">Source Code</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="start_orbot_">Start Orbot?</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="stock_browser_available">Supported stock browser detected</string>
+    <string name="stock_browser_unavailable">No stock browser detected</string>
+    <string name="suggestion">Search for</string>
+    <string name="sync_history">Sync history with Google</string>
+    <string name="title_activity_new_settings">NewSettings</string>
+    <string name="title_adblock">AdBlock</string>
+    <string name="title_chooser">Choose a file</string>
+    <string name="title_clear_cookies">Clear Cookies</string>
+    <string name="title_clear_history">Clear History</string>
+    <string name="title_custom_homepage">Custom Homepage</string>
+    <string name="title_download_location">Download Location</string>
+    <string name="title_edit_bookmark">Edit Bookmark</string>
+    <string name="title_error">Error</string>
+    <string name="title_file_chooser">File Chooser</string>
+    <string name="title_flash">Adobe Flash</string>
+    <string name="title_form_resubmission">Form Resubmission</string>
+    <string name="title_search_engine">Search Engine</string>
+    <string name="title_sign_in">Sign In</string>
+    <string name="title_text_size">Text Size</string>
+    <string name="title_user_agent">User Agent</string>
+    <string name="title_warning">Warning</string>
+    <string name="untitled">Untitled</string>
+    <string name="url_twitter">twitter.com/ACRDevelopment</string>
+    <string name="use_tor_prompt">It looks like you have Orbot installed. Do you want to use Tor?</string>
+    <string name="version">Application Version</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="warning_pinned_cert_mismatch">"Provided Certificate Does Not Match PINNED Certifcate: "</string>
+    <string name="warning_weak_crypto">WARNING: This service uses a certificate with WEAK cryptography. Please tell the administrator to upgrade.</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="wideViewPort">Use wide viewport</string>
+    <string name="window">Allow sites to open new windows</string>
+    <string name="yes">Yes</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="you_must_have_orbot">You must have Orbot installed and activated to proxy traffic through it. Would you like to install it from Google Play?</string>
+    <!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="DarkActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/gray_dark</item>
+    </style>
+    <style name="DarkTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="progressColor">@color/gray_extra_dark</item>
+        <item name="numberColor">@color/gray_light</item>
+        <item name="autoCompleteTitleColor">@color/white</item>
+        <item name="autoCompleteUrlColor">@color/gray_light</item>
+        <item name="arrowBackDrawable">@drawable/ic_action_back_dark</item>
+        <item name="arrowForwardDrawable">@drawable/ic_action_forward_dark</item>
+        <item name="android:actionBarStyle">@style/DarkActionBar</item>
+    </style>
+    <style name="DefaultTheme" parent="android:Theme.Holo.Light">
+        <item name="progressColor">@color/gray_medium</item>
+        <item name="arrowBackDrawable">@drawable/ic_action_back</item>
+        <item name="numberColor">@color/gray_dark</item>
+        <item name="autoCompleteTitleColor">@color/black</item>
+        <item name="autoCompleteUrlColor">@color/gray_medium</item>
+        <item name="arrowForwardDrawable">@drawable/ic_action_forward</item>
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="LightActionBar" parent="android:Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@color/gray_light</item>
+    </style>
+    <style name="LightTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="progressColor">@color/gray_medium</item>
+        <item name="arrowBackDrawable">@drawable/ic_action_back</item>
+        <item name="numberColor">@color/gray_dark</item>
+        <item name="autoCompleteTitleColor">@color/black</item>
+        <item name="autoCompleteUrlColor">@color/gray_medium</item>
+        <item name="arrowForwardDrawable">@drawable/ic_action_forward</item>
+        <item name="android:actionBarStyle">@style/LightActionBar</item>
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+        -->
+    </style>
+    <style name="boldText">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="normalText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

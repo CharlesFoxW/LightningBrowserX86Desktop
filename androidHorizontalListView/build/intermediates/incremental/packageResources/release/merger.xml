@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/charlesfoxw/Documents/Lightning-Browser/androidHorizontalListView/src/main/res"><file path="/Users/charlesfoxw/Documents/Lightning-Browser/androidHorizontalListView/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="HorizontalListView">
+        <attr format="dimension" name="dividerWidth"/>
+        <attr name="android:divider"/>
+        <attr name="android:requiresFadingEdge"/>
+        <attr name="android:fadingEdgeLength"/>
+    </declare-styleable></file></source><source path="/Users/charlesfoxw/Documents/Lightning-Browser/androidHorizontalListView/build/generated/res/rs/release"/><source path="/Users/charlesfoxw/Documents/Lightning-Browser/androidHorizontalListView/build/generated/res/generated/release"/></dataSet><dataSet config="release"><source path="/Users/charlesfoxw/Documents/Lightning-Browser/androidHorizontalListView/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="HorizontalListView"><attr format="dimension" name="dividerWidth"/><attr name="android:divider"/><attr name="android:requiresFadingEdge"/><attr name="android:fadingEdgeLength"/></declare-styleable></configuration></mergedItems></merger>

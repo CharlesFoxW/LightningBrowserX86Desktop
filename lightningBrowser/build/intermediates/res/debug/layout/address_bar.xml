@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="86dp"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:baselineAligned="false"
+                android:orientation="horizontal"
+                android:weightSum="2" >
+
+                <RelativeLayout
+                    android:id="@+id/action_back"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/list_bg"
+                    android:clickable="true" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/action_back"
+                        android:paddingBottom="4dp"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:paddingTop="4dp"
+                        android:src="@drawable/ic_action_back" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/action_forward"
+                    android:layout_width="33dp"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/list_bg"
+                    android:clickable="true" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:contentDescription="@string/action_forward"
+                        android:paddingBottom="4dp"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:paddingTop="4dp"
+                        android:src="@drawable/ic_action_forward" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/action_new_bookmark"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="14dp"
+                android:background="@drawable/list_bg"
+                android:src="@drawable/ic_bookmark"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:hint="@string/search_hint"
+                android:imeOptions="actionGo"
+                android:inputType="textUri"
+                android:paddingBottom="1dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="5dp"
+                android:paddingTop="1dp"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textColor="@color/gray_dark"
+                android:textCursorDrawable="@null"
+                android:layout_marginTop="10dp">
+            </AutoCompleteTextView>
+
+
+        </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/layout/address_bar.xml -->

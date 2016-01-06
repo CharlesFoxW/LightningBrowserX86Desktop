@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:background="@drawable/list_bg"
+    android:orientation="horizontal"
+    android:weightSum="2" >
+
+    <ImageView
+        android:id="@+id/favicon1"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:contentDescription="Favicon"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:gravity="center_vertical"
+        android:fontFamily="sans-serif-light"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:ellipsize="end"
+
+        android:textColor="@color/dark_text" />
+
+</LinearLayout><!-- From: file:/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/src/main/res/layout/bookmark_bar.xml -->

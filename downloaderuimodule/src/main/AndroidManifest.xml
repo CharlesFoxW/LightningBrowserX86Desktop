@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    android:sharedUserId="android.media"
+    android:versionCode="19"
+    android:versionName="4.4.4-eng.cwhuang.20150101.174202"
+    package="com.android.providers.downloads.ui"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission
+        android:name="android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS" />
+    <uses-permission
+        android:name="android.permission.ACCESS_ALL_DOWNLOADS" />
+    <application
+        android:label="@string/app_label"
+        android:icon="@mipmap/ic_launcher_download"
+        android:process="android.process.media"
+        android:hardwareAccelerated="true"
+        android:supportsRtl="true"
+        android:requiredForAllUsers="true">
+
+        <activity
+            android:theme="@*android:style/Theme.NoDisplay"
+            android:name=".DownloadList">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.VIEW_DOWNLOADS" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:theme="@*android:style/Theme.NoDisplay"
+            android:name=".TrampolineActivity"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter>
+                <action
+                    android:name="android.provider.action.MANAGE_DOCUMENT" />
+                <category
+                    android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:mimeType="*/*"
+                    android:scheme="content"
+                    android:host="com.android.providers.downloads.documents" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

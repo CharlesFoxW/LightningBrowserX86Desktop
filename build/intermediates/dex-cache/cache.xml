@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd0b3c2fa6f1adc8e79c04a5bef71a9ba586ec73">
+        <dex dex="/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/pre-dexed/debug/classes-3954dd4c5fceb9ca88f15af3434e4e0d18880c62.jar" />
+    </item>
+    <item
+        jar="/Users/charlesfoxw/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/pre-dexed/debug/support-v4-19.1.0-e5987446277ece98c153bdeaf1570b3fa0d1d99e.jar" />
+    </item>
+    <item
+        jar="/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/libs/spongycastle-core-1.50.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="13e93b00ec9790315debd61fa25ab6a47d3a1c52">
+        <dex dex="/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/pre-dexed/debug/spongycastle-core-1.50.0.0-f8437e22715b3f985c31c18cd2628ac699398485.jar" />
+    </item>
+    <item
+        jar="/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/androidHorizontalListView/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="72128052740ed72c2570afcf18520b5618a291cd">
+        <dex dex="/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/pre-dexed/debug/classes-c7dda566e4fecd1fd6f0170e9acdad73bd154a18.jar" />
+    </item>
+    <item
+        jar="/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/exploded-aar/Lightning-Browser/libnetcipher/unspecified/libs/httpclientandroidlib-1.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="876bd5cb8cee9c70980e77b489f06ca20452a054">
+        <dex dex="/Users/charlesfoxw/Documents/Lightning-Browser/lightningBrowser/build/intermediates/pre-dexed/debug/httpclientandroidlib-1.2.1-137a7ec1fa536f6d6bd409ec3040b7c4fc06e355.jar" />
+    </item>
+
+</items>
